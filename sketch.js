@@ -51,6 +51,7 @@ if (keyHasBeenPressed==1){
 	 if ((paperObject.body.position.x>1100 && paperObject.body.position.x<1300) && (paperObject.body.position.y>610)){
 		textSize(75);
 		text("KEEP IT UP!",450,300);
+		background("green");
 		}
 		}
 }
